@@ -43,6 +43,9 @@ experimental thrust-vectoring module.
 Current CAD development is at an early stage and is being used primarily
 to understand mechanical layout, interfaces, and control concepts.
 
+I am also learning to interface different sensors with microcontrollers.
+
+
 ### Avionics and Data Acquisition
 
 Arduino Uno/Nano or an ESP32 are being considered as an initial experimental flight
@@ -75,22 +78,3 @@ Planned areas include:
 - Parameterized simulation
 - Post-test data analysis
 
-## System Concept
-
-The intended development path is:
-
-```text
-Sensors
-   ↓
-State estimation
-   ↓
-Flight dynamics / vehicle state
-   ↓
-Guidance
-   ↓
-Control algorithm
-   ↓
-Actuation
-   ↓
-Vehicle response
-   ↺
