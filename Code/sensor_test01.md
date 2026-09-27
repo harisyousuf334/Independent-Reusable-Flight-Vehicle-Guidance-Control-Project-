@@ -1,9 +1,8 @@
 /*
   flight_logger.ino
   ------------------
-  Step 6 of bring-up: BMP280 + MPU9250 read loop, logged to SD as CSV,
+  BMP280 + MPU9250 read loop, logged to SD as CSV,
   with two servos exercised on their own PWM channels.
-
   Wiring (ESP32 dev board, 3.3V logic throughout):
 
     I2C bus (BMP280 + MPU9250, shared):
